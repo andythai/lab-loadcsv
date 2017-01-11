@@ -3,6 +3,8 @@
 %   A table imported from ChronoViz
 % Output: 
 %   T - table to return
+% To use: import .csv data as a table, then type in:
+% variable = pulldata(tablename) to save as a table.
 function T = pulldata(csvfile)
 
 % Initialize variables
