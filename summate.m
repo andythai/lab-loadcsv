@@ -2,6 +2,7 @@ function [ total_time ] = summate( table, string )
 %SUMMATE summates the total time spent in table with string
 %   Input: table to analyze, string to search for
 %   Output: total time spent doing string label
+%   Dependencies: filter_table.m
 
 % Variables
 new_table = filter_table(table, string);

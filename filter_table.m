@@ -1,8 +1,8 @@
 function [ new_table ] = filter_table( table, string )
 %FILTER isolates the tags with the string keyword
 %   Input: string to search for, table to search in
-%   Output: table with just the string keyword
-
+%   Output: filtered table with just the string keyword related data
+%   Dependencies: N/A
 % Variable initialization
 ENTRY_OFFSET = 1;
 TIME_OFFSET = 2;

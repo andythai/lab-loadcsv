@@ -1,11 +1,14 @@
 function [ graph ] = doublebar( set1_array, set2_array, keyword )
-%DOUBLEBAR Creates a doublebar graph based on summation of keyword times
+%DOUBLEBAR Creates a dataset for use in a 
+%          doublebar graph based on summation of keyword times
 %   Input: set1_array is an array of table names
 %          set2_array is an array of table names
 %               Acquire arrays by use of who command
 %               Example: A = who('text*');
 %          keyword is the string to search for
 %   Output: dataset for use in bar function
+%           Use with the function bar(output) to generate
+%   Dependencies: summate.m, filter_table.m
 % WARNING: WILL TREAT EVERY FILE AS A SEPARATE DAY
 
 % Get sizes

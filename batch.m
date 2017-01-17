@@ -2,6 +2,7 @@
 % Input: 
 %   An array of variable names. This can be gotten via 
 %       varArray = who('CSD*')
+% Dependencies: pulldata.m
 
 function batch(varArray)
 
