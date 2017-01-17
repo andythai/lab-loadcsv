@@ -35,14 +35,14 @@ for index = 2:NUM_ROWS
 end
 
 % Print output
-fprintf('Analyzing %s data\n', inputname(1));
-fprintf('Number of entries: %d\n', amount);
-fprintf('Elapsed time values:\n');
+%fprintf('Analyzing %s data\n', inputname(1));
+%fprintf('Number of entries: %d\n', amount);
+%fprintf('Elapsed time values:\n');
 for index = 1:amount
-    fprintf('%d \t %.1f sec \t ', index, elapsed_time_vector(index));
+    %fprintf('%d \t %.1f sec \t ', index, elapsed_time_vector(index));
     T{index,1} = {index};
     T{index,2} = {elapsed_time_vector(index)};
     T{index,3} = {char(label_vector{index + 1, 1})};
-    fprintf('%s\n', char(label_vector{index + 1, 1}));
+    %fprintf('%s\n', char(label_vector{index + 1, 1}));
 end
 
